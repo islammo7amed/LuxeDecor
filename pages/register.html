@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeDecor</title>
+    <link rel="stylesheet" href="../assets/css/auth.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <form>
+        <h1>Create Account</h1>
+        <p class="auth-title">Join us to start shopping</p>
+        <div style="display: flex; gap: 4%;">
+            <div class="full-name">
+                <label>First Name</label>
+                <div class="input-container">
+                    <input type="text" id="f-name" class="field">
+                    <i class="fa-regular fa-user input-icon"></i>
+                </div>
+            </div>
+            <div>
+                <div class="full-name">
+                    <label>Last Name</label>
+                    <div class="input-container">
+                        <input type="text" id="l-name" class="field">
+                        <i class="fa-regular fa-user input-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <label>Email</label>
+        <div class="input-container">
+            <input type="email" id="email" class="field">
+            <i class="fa-regular fa-envelope input-icon"></i>
+        </div>
+        <label>Phone</label>
+        <div class="input-container">
+            <input type="tel" id="phone" class="field">
+            <i class="bi bi-telephone input-icon"></i>
+        </div>
+        <label>Password</label>
+        <div class="input-container">
+            <input type="password" id="password" class="field">
+            <i class="bi bi-lock input-icon"></i>
+            <i class="bi bi-eye-slash input-icon" id="password-eye"></i>
+        </div>
+        <input type="button" id="signin" class="sign" value="Create Account">
+        <a href="login.html" id="signup">Already have an account? Sign in</a>
+    </form>
+</body>
+</html>
